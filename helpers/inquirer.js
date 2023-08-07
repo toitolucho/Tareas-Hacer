@@ -112,8 +112,8 @@ const listadoTareasBorrar=async(tareas=[])=>{
     const{id}=await inquirer.prompt(preguntas);
     return id;
 }
-const mostrarListadoCheklist=async(tarea=[])=>{
-    //copiamos el codigo de: listado tareaBorrar y lo modificamos
+const mostrarListadoCheklist=async(tareas=[])=>{
+    
     const choices=tareas.map((tarea,i)=>{
         const idx=`${i+1}.`.green;
         return{

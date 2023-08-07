@@ -1,0 +1,18 @@
+{
+  "name": "03_bases_node",
+  "version": "1.0.0",
+  "description": "Tabla de multuplicar con archivos .txt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "author": "Jose Enrique Iglesias",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.2",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.1.1-candidate.0"
+  }
+}

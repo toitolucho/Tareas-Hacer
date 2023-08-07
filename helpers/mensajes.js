@@ -1,4 +1,4 @@
-//const { resolve } = require('path');
+const { resolve } = require('path');
 
 require('colors');
 
@@ -26,6 +26,7 @@ const mostrarMenu =() =>{
         readline.question('Seleccione una opcion', (opt)=>{
             //console.log(opt);
             readline.close();
+            resolve(opt);
         })
         
 

@@ -1,15 +1,4 @@
-# Curso-node-tablas
-## Notas
+# Curso NODE.JS Ejemplo de Administrador de Tareas.
+## TODO LIST
 
-MI PRIMERA APLICACION NODE
-
-```
-Opciones:
-      --help     Muestra ayuda                                        [booleano]
-      --version  Muestra número de versión                            [booleano]
-  -b, --base                                                [número] [requerido]
-  -l, --listar                                            [booleano] [requerido]
-  -h, --hasta    Este es el numero hasta donde se genera la tabla
-  
-  ```
-                                                          [número] [defecto: 10]
+Aplicacion hecha en NODE.
